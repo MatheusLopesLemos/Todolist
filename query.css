@@ -1,0 +1,159 @@
+
+@media (max-width: 426px) {
+
+    .menu {
+        font-size: 45%;
+    }
+  
+    img {
+        width: 80px;
+        height: 80px;
+    }
+  
+    .listas li {
+        font-size: 5px;
+    }
+  
+    .listas ul button {
+        height: 10px;
+        width: 10px;
+    }
+  
+    .listaDia li i {
+        font-size: 6px;
+    }
+    
+    .listaDia li button i {
+        font-size: 8px;
+    
+    }
+    
+    .listaNoite li  i {
+        font-size: 6px;
+    }
+    
+    .listaNoite li button i {
+        font-size: 8px;
+    }
+    
+}
+  
+  
+  
+@media (min-width: 428px) and (max-width: 769px) {
+  
+    .menu {
+        font-size: 75%;
+    }
+  
+    img {
+         width: 100px;
+         height: 100px;
+    }
+  
+    .listas li {
+        font-size: 70%;
+    }
+  
+    .listas ul button {
+        height: 15px;
+        width: 15px;
+    }
+    
+    .listaDia li i {
+        font-size: 12px;
+    }
+    
+    .listaDia li button i {
+        font-size: 10px;
+    
+    }
+    
+    .listaNoite li  i {
+        font-size: 12px;
+    }
+    
+    .listaNoite li button i {
+        font-size: 10px;
+    }
+      
+}
+  
+@media (min-width: 769px) and (max-width: 1025px) {
+  
+    .menu {
+        font-size: 80%;
+    }
+  
+    img {
+        width: 130px;
+        height: 130px;
+    }  
+  
+    .listas li {
+        font-size: 90%;
+    }
+  
+    .listas ul button {
+        height: 20px;
+        width: 20px;
+    }
+  
+    .listaDia li i {
+        font-size: 15px;
+    }
+    
+    .listaDia li button i {
+        font-size: 10px;
+    }
+    
+    .listaNoite li  i {
+        font-size: 15px;
+    }
+    
+    .listaNoite li button i {
+        font-size: 10px;
+    }
+
+}
+  
+  
+@media (min-width: 1026px) and (max-width: 1441px) {
+  
+    .menu {
+        font-size: 100%;
+    }
+  
+    img {
+        width: 150px;
+        height: 150px;
+    }  
+  
+    .listas li {
+        font-size: 120%;
+    }
+  
+    .listas ul button {
+        height: 20px;
+        width: 20px;
+    }
+  
+    .listaDia li i {
+        font-size: 15px;
+    }
+    
+    .listaDia li button i {
+        font-size: 15px;
+    }
+    
+    .listaNoite li  i {
+        font-size: 15px;
+    }
+    
+    .listaNoite li button i {
+        font-size: 15px;
+    }
+    
+}
+  
+    

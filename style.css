@@ -1,0 +1,186 @@
+
+main {
+    display: flex;
+    font-family: Helvetica, calibri;
+}
+  
+/* Estilo do Menu  */
+  
+.menu {
+    width: 30%;
+    height: 98vh;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #91A7E3;
+}
+  
+.menu ul {
+    list-style: none;
+    align-items:center;
+    justify-content: center;
+}
+  
+.menu p {
+    display:block;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 5%;
+    position: relative;
+}
+  
+a {
+    text-decoration: none;
+    margin-right: 60px;    
+}
+  
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 12%;
+}
+  
+/* Estilo das listas  */
+  
+aside {
+    width: 70%;
+    height: 98vh;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #8EB0CD;
+    border-radius: 15px;
+}
+  
+aside div h1{
+    padding: 1%;
+    font-size: 30px;
+}
+  
+input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 3vh;
+    width: 60%;
+    margin-bottom: 2%;
+}
+  
+.listas{
+    display: flex;
+    justify-content: center;
+}
+  
+.listas ul{  
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    padding-inline: 10%;
+}
+  
+.listas li{
+    font-size: 20px;
+    height: 3vh;
+    padding-top: 1% ;
+    margin-bottom: 2%;
+}
+  
+.listas ul button {
+    display: flex;
+    float: right;
+    border-radius: 50%;
+    border: none;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #8BD9D4;
+    padding-top: 1%;
+}
+  
+.listas ul button:hover {
+    background-color:#28d6cb ;
+}
+  
+  
+/* Estilo Lista Dia  */
+  
+.listaDia{
+    width: 45%;
+    border: 2px solid black;
+    background-color: #5398D5;
+    color: white;
+    border-radius: 15px;
+    height: 75vh; 
+}
+  
+.listaDia li i {
+    color: yellow;
+    float: left;
+    font-size: 12px;
+}
+  
+.listaDia li button i {
+    font-size: 14px;
+}
+  
+  
+.adicionar-dia-btn{
+    border-radius: 5px;
+    background-color:#8BD9D4;
+    height: 3.5vh;
+    color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+  
+.adicionar-dia-btn:hover{
+    background-color:#28d6cb
+}
+  
+  
+/* Estilo Lista Noite  */
+  
+.listaNoite{
+    width: 45%;
+    list-style: none;
+    border: 2px solid black;
+    background-color: #6A8399;
+    color: black;
+    border-radius: 15px;
+    height: 75vh;
+}
+  
+.listaNoite h1{
+    color: black;
+}
+  
+.listaNoite li  i {
+    color: white;
+    float: left;
+    font-size: 12px;
+}
+  
+.listaNoite li button i {
+  
+    font-size: 14px;
+    
+}
+  
+.adicionar-noite-btn{
+    border-radius: 5px;
+    background-color:#8BD9D4;
+    height: 3.5vh;
+    color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+  
+.adicionar-noite-btn:hover{
+    background-color:#28d6cb
+}
